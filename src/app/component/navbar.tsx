@@ -64,7 +64,7 @@ function Navbar() {
         <div className="md:hidden bg-teal-800 p-4">
           <div className="flex flex-col space-y-4">
             <NavLink href="/" onClick={toggleMenu}>Home</NavLink>
-            <NavLink href="/products" onClick={toggleMenu}>Products</NavLink>
+            <NavLink href="/product" onClick={toggleMenu}>Products</NavLink>
             <NavLink href="/about" onClick={toggleMenu}>About</NavLink>
             <NavLink href="/contact" onClick={toggleMenu}>Contact</NavLink>
             <Link href="/login" className="bg-teal-600 hover:bg-teal-700 text-white px-4 py-2 rounded-full transition-colors duration-300 text-center">
